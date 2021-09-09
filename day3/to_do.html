@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>TO DO LIST</title>
+
+    <style>
+        .container{
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button
+        {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            width: 30%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        input{
+            width:50%;
+            height: 50px;
+            text-indent: 20px;
+            font-size: 30px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid gray;
+
+
+        }
+       
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+     .two{
+                padding-top: 50px;
+                padding-bottom: 50px;
+                width: 400px;
+               /* background-color:gray; */
+            }
+       .todo{
+           padding-top: 10px;
+           padding-bottom: 10px;
+           text-indent: 20px;
+           margin: 10px;
+           font-size: 25px;
+           font-weight: segoe UI;
+           box-shadow: 0 0 2px gray;
+           border-radius: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Task" id="inp"/>
+        <button onclick="addTask()">Add to List</button>
+        <button onclick="change()">Change Color</button>
+    
+
+
+    <div id="two"  class="two">
+
+    </div>
+   
+</div>
+
+    <script src="second.js"></script>
+    
+</body>
+</html>
